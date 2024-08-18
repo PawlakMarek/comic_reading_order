@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "comic_reading_order"
+version = "0.1.0"
+description = "A project to create comic reading orders using Marvel API or ComicVine API"
+authors = ["Marek Pawlak"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
